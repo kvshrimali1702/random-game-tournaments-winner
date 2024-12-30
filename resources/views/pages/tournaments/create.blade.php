@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <form method="POST" action="" id="addTournamentForm">
+    <form method="POST" action="{{ route('tournaments.store') }}" id="addTournamentForm">
         @csrf
         <h1 class="font-bold text-xl">Create Tournament</h1>
         {{-- User Details Container --}}
