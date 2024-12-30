@@ -1,5 +1,6 @@
 import axios from 'axios';
 import $ from "jquery";
+import "jquery-validation";
 
 window.axios = axios;
 
